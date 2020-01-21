@@ -12,13 +12,13 @@ Installez avec `catkin_make install`
 
 # Execution
 
-Dans chacun des derminal utilisé, sourcez le projet avec `source install/setup.bash`
+Dans chacun des terminals utilisé, sourcez le projet avec `source install/setup.bash`
 
-Lancer l'environement 
+Lancez l'environement avec
 `rosrun osrf_gear gear.py --development-mode -f src/tprobotique/data/planeta.yaml`
 
-Pour executer notre package
+Executez notre package avec
 `rosrun tprobotique main.py`
 
-Pour démarer la simulation
+Démarez la simulation avec
 `rosservice call /ariac/start_competition`
