@@ -1,6 +1,6 @@
 # Integration-capteurs-cellule-robotique
 
-# Installation
+## Installation
 
 Partir d'un projet Gazebo ariac et placez vous dans à la base du projet `cd ariac_ws`.
 
@@ -10,12 +10,12 @@ Clonez ce package dans le dossier `src/tprobotique` avec `git clone https://gith
 
 Installez avec `catkin_make install`
 
-# Execution
+## Execution
 
 Dans chacun des terminals utilisé, sourcez le projet avec `source install/setup.bash`
 
 Lancez l'environement avec
-`rosrun osrf_gear gear.py --development-mode -f src/tprobotique/data/planeta.yaml`
+`rosrun osrf_gear gear.py --development-mode -f src/tprobotique/data/planeta.yaml src/tprobotique/data/belt_objects_test1.yaml`
 
 Executez notre package avec
 `rosrun tprobotique main.py`
