@@ -17,6 +17,9 @@ Dans chacun des terminaux utilisés, sourcez le projet avec `source install/setu
 Lancez l'environnement avec
 `rosrun osrf_gear gear.py --development-mode -f src/tprobotique/data/planeta.yaml src/tprobotique/data/belt_objects_test1.yaml`
 
+ou avec la deuxième série de test
+`rosrun osrf_gear gear.py --development-mode -f src/tprobotique/data/planeta.yaml src/tprobotique/data/belt_objects_test2.yaml`
+
 Exécutez notre package avec
 `rosrun tprobotique main.py`
 
